@@ -1,0 +1,14 @@
+.off-card {
+  background-color: #303030;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+a {
+  color: #a3f7bf;
+  transition: color .3s
+}
+
+a:hover {
+  color: #29A19C;
+}
