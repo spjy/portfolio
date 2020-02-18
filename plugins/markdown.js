@@ -23,7 +23,9 @@ function markdownIt(markdown) {
   mdTexMath.use(katex)
 
   // Load plugins into markdown it
-  const markdownIt = mdIt()
+  const markdownIt = mdIt({
+    html: true
+  })
     .use(mdAttributes)
     .use(mdTexMath, {
       delimiters: 'dollars',
@@ -42,8 +44,6 @@ function markdownIt(markdown) {
       // Extract headers and insert into table of contents key
       tocCallback: (markdown, array, html) => {
         output.toc = array
-        // eslint-disable-next-line
-        console.log(array)
       }
     })
     .use(mdDiv)

@@ -4,12 +4,13 @@
 
     <Section title="Who">
       <p>
-        Hi there! I reside in Oahu, Hawaii and have been here all my life. I'm a
-        full time student at the University of Hawaii at Manoa.
+        Hi there! I reside in O'ahu, Hawai'i and have been here all my life. I'm
+        a full time student at the University of Hawai'i at Mānoa.
       </p>
 
       <p>
-        I currently work at the Hawaii Space Flight Laboratory
+        I currently work at the Hawaii Space Flight Laboratory as a satellite
+        assistant software developer.
       </p>
 
       <p>
@@ -94,9 +95,6 @@ export default {
           projects[filename] = Vue.prototype.$markdown(markdown.default)
         })
     )
-
-    // eslint-disable-next-line
-    console.log(essays, projects)
 
     return {
       essays,

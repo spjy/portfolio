@@ -8,7 +8,7 @@
       <nuxt-link
         v-for="topic in topics"
         :key="topic"
-        :to="`/guides/${topic}`"
+        :to="`/notes/${topic}`"
         class="flex-1 p-2"
       >
         <a-card hoverable :title="topic.toUpperCase()" />

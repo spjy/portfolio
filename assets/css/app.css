@@ -79,3 +79,8 @@ p {
 .card:hover {
   top: -2px;
 }
+
+image.centered {
+  display: block;
+  margin: 0 auto;
+}

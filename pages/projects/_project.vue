@@ -39,8 +39,6 @@ export default {
     const { output, frontmatter, toc } = Vue.prototype.$markdown(
       markdown.default
     )
-    // eslint-disable-next-line
-    console.log(frontmatter)
 
     return {
       markdown: output,

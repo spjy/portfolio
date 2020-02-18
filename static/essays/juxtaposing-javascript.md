@@ -8,11 +8,7 @@ github:
 link:
 ---
 
-<img class="ui centered medium image" src="../images/relationships.jpg">
-
-<div style="text-align:center">
 <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@evertonvila?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Everton Vila</span></a>
-</div>
 
 ## My past
 
@@ -26,11 +22,9 @@ Simply put, JavaScript atrocious. Specifically, the promotion of abstracting fou
 
 Whether that student was joking or not, it is agreeable that, to write effective code, rudimentary knowledge of computer architecture concepts is required. Static variable and function typing promote the fact that types populate specific size of memory space on the memory stack. Memory management practices promote the fact that data is stored at a certain address in memory. Compilation knowledge promotes the fact that machines understand binary, not plaintext. In other words, JavaScript abstraction hides these important computer science concepts in its convenience pocket, and students should exercise their due diligence to learn the foundations and maintain caution to avoid complacency.
 
-<img class="ui centered medium image" src="../images/reconcile.jpg">
+<img class="ui centered medium image w-64" src="../images/reconcile.jpg">
 
-<div style="text-align:center">
 <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@enriq_b312?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Octavio Fossatti</span></a>
-</div>
 
 ## Reconciling with JavaScript
 

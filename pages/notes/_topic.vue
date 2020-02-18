@@ -4,34 +4,32 @@
       :header="frontmatter ? frontmatter.header : ''"
       :description="frontmatter ? frontmatter.description : ''"
     />
-    <div class="bg-blue-lightest">
-      <div class="sm:block md:flex lg:flex xl:flex">
-        <div class="sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 mx-auto p-4">
-          <a-anchor
-            class="sm:invisible md:visible lg: visible xl:visible"
-            :offsetTop="30"
-            :offsetBottom="30"
-          >
-            <a-anchor-link
-              v-for="content in toc"
-              :class="content.level === 1 ? 'font-semibold' : ''"
-              :href="`#${content.anchor}`"
-              :key="content.anchor"
-              :title="content.content"
-              :style="`text-indent: ${0.6 * (content.level - 1)}em`"
-            />
-          </a-anchor>
-          <!-- <br />
+    <div class="sm:block md:flex lg:flex xl:flex">
+      <div class="sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 mx-auto p-4">
+        <a-anchor
+          class="sm:invisible md:visible lg: visible xl:visible"
+          :offset-top="30"
+          :offset-bottom="30"
+        >
+          <a-anchor-link
+            v-for="content in toc"
+            :key="content.anchor"
+            :class="content.level === 1 ? 'font-semibold' : ''"
+            :href="`#${content.anchor}`"
+            :title="content.content"
+            :style="`text-indent: ${0.6 * (content.level - 1)}em`"
+          />
+        </a-anchor>
+        <!-- <br />
           <a-card>
             <h1>Calculators</h1>
           </a-card> -->
-        </div>
-        <div class="sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5">
-          <div class="mx-auto p-4">
-            <a-card>
-              <div class="font" v-html="markdown"></div>
-            </a-card>
-          </div>
+      </div>
+      <div class="sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5">
+        <div class="mx-auto p-4">
+          <a-card>
+            <div class="font" v-html="markdown"></div>
+          </a-card>
         </div>
       </div>
     </div>

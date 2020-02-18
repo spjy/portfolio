@@ -18,9 +18,12 @@
           <a class="flex-1 text-gray-700 text-center px-2">
             Essays
           </a>
-          <a class="flex-1 text-gray-700 text-center px-2">
+          <router-link
+            to="/notes"
+            class="flex-1 text-gray-700 text-center px-2"
+          >
             Notes
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="flex-1 text-gray-700 text-right bg-gray-400 text-lg">

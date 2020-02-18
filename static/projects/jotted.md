@@ -8,10 +8,6 @@ github: https://github.com/spjy/cosmos-web
 link:
 ---
 
-<img class="ui centered large rounded image" src="../images/jotted.png">
-
-![alt text](/images/jotted.png")
-
 Jotted came into fruition in order for me to improve my productivity and recollection by easily jot down notes, especially ones that involve mathematical equations. This means the tool had to have Markdown as its base and be able to render LaTeX math equations. Additionally, another feature it had to have was customizable theming; I am particular about the appearance. I had researched the internet for a tool that fulfilled all of the above requirements, yet none fit the bill. Thus, I challenged myself to build it myself.
 
 I opted to use Nuxt since it had single page application (SPA) capabilities, it supports Vue.js and it is simple to bootstrap. Single page applications are excellent for this case since they are compatible with free static site publishers such as GitHub pages. Thus, it will cost little to nothing to host. In my opinion, Vue.js is a superior frontend framework because of its simplicity, low learning curve and natural syntax. With React, it invented a completely new dialect that mashed together HTML, CSS and JavaScript called JSX; however, with Vue.js, it maintains HTML, CSS and JavaScript and has separations of concerns for each language. Finally, Nuxt is easy to bootstrap. It has a simple command line interface tool that asks for what frameworks and tools you would like to use in the project, for example which ESLint configuration, unit tester or frontend framework you would like to use. Thereafter, it generates the file structure.

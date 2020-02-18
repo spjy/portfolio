@@ -19,11 +19,23 @@
       </span>
     </div>
     <div>
-      <a v-if="github" class="icons" :href="github">
+      <a
+        v-if="github"
+        class="icons"
+        :href="github"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <a-icon class="text-3xl" type="github" />
       </a>
       &nbsp;
-      <a v-if="link" class="icons" :href="link">
+      <a
+        v-if="link"
+        class="icons"
+        :href="link"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <a-icon class="text-3xl" type="link" />
       </a>
     </div>
@@ -67,6 +79,6 @@ export default {
 
 <style>
 .image {
-  border: 2px #a3f7bf solid;
+  /* border: 2px #a3f7bf solid; */
 }
 </style>
