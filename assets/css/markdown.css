@@ -1,13 +1,12 @@
 h1 {
   padding-top: 0.5em;
-  border-bottom: 1px solid;
   border-image-source: linear-gradient(90deg, rgba(219,216,233,1) 0%, rgba(255,255,255,1) 100%);
   border-image-slice: 1;
 }
 
 h2 {
+  color: white;
   padding-top: 1em;
-  border-bottom: 1px solid;
   border-image-source: linear-gradient(90deg, rgba(219,216,233,1) 0%, rgba(255,255,255,1) 100%);
   border-image-slice: 1;
 }
@@ -70,16 +69,17 @@ pre {
 }
 
 img {
-  border-radius: 5px;
-  padding: 1em;
+  /* border-radius: 5px; */
+  /* padding: 1em; */
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
-  background-color: #fafafa;
-  margin: 0.5em 0;
+  /* background-color: #fafafa; */
+  /* margin: 0.5em 0; */
 }
 
 .markdownIt-Anchor {
-  color: #667ec9;
+  color: #a3f7bf;
   padding: 1px;
+  text-decoration: none; 
 }
 
 .markdownIt-Anchor:hover {
@@ -110,13 +110,13 @@ th, td {
 }
 
 p a {
-  color: #69b1ff;
-  border-bottom: #69b1ff 1px dashed;
+  color: #a3f7bf;
+  /* border-bottom: #a3f7bf 1px dashed; */
   transition: color .3s, border-bottom .3s;
 }
 
 p a:hover {
-  border-bottom: #0783e7 1px dashed;
+  /* border-bottom: #29a19c 1px dashed; */
 }
 
 code {
