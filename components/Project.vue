@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/3 flex-none rounded overflow-hidden shadow-lg card m-4">
+  <div class="w-64 flex-none rounded overflow-hidden shadow-lg card m-4">
     <img class="w-full h-64" :src="image" />
     <div class="px-6 pt-4 pb-4">
       <div class="font-bold text-lg mb-1">
