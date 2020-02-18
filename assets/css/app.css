@@ -67,3 +67,15 @@ p {
 .text-lower {
   color: #9b9b9b
 }
+
+.card {
+  width: 350px;
+  position: relative;
+  background-color: #393e46;
+  top: 0;
+  transition: top ease 0.3s;
+}
+
+.card:hover {
+  top: -2px;
+}

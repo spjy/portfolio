@@ -1,5 +1,5 @@
 <template>
-  <div class="w-64 flex-none rounded overflow-hidden shadow-lg card m-4">
+  <div class="flex-none rounded overflow-hidden shadow-lg card m-4">
     <div class="px-6 py-4">
       <div class="font-bold text-lg mb-1">
         {{ title }}
@@ -46,15 +46,4 @@ export default {
 }
 </script>
 
-<style>
-.card {
-  position: relative;
-  background-color: #393e46;
-  top: 0;
-  transition: top ease 0.3s;
-}
-
-.card:hover {
-  top: -2px;
-}
-</style>
+<style></style>

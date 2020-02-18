@@ -20,11 +20,7 @@
         I have some skills under my belt:
       </p>
 
-      <Skills
-        :skills="{
-          software: ['HTML', 'CSS']
-        }"
-      />
+      <Skills :skills="$store.state.settings.skills" />
     </Section>
 
     <Section title="Projects" cards>

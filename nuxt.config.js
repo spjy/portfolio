@@ -55,7 +55,7 @@ export default {
     extend(config, ctx) {
       // Run ESLint on save
       config.module.rules.push({
-        test: /\.md$/,
+        test: /\.(md|yml)$/,
         exclude: /(node_modules)/,
         use: 'raw-loader'
       })

@@ -24,13 +24,28 @@
         </div>
       </div>
       <div class="flex-1 text-gray-700 text-right bg-gray-400 text-lg">
-        <a class="icons" href="">
+        <a
+          class="icons"
+          :href="$store.state.settings.linkedIn"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <a-icon class="" type="linkedin" />
         </a>
-        <a class="icons" href="">
+        <a
+          class="icons"
+          :href="`mailto:${$store.state.settings.email}`"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <a-icon type="mail" />
         </a>
-        <a class="icons" href="">
+        <a
+          class="icons"
+          :href="$store.state.settings.github"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <a-icon type="github" />
         </a>
       </div>

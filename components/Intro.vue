@@ -37,7 +37,7 @@ export default {}
     overflow: hidden;
     background: linear-gradient(176deg, #393e46 80.9%, #222831 81%);
     height: 100vh;
-    padding-top: 250px;
+    padding-top: 150px;
   }
 }
 
