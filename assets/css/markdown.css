@@ -72,7 +72,7 @@ pre {
   margin: 1em 0;
 }
 
-img {
+p img {
   border-radius: 5px;
   padding: 1em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
@@ -124,7 +124,7 @@ p a:hover {
 }
 
 code {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgb(173, 173, 173);
 }
 
 ul {
