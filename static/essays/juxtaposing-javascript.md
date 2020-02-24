@@ -2,7 +2,7 @@
 title: Juxtaposing JavaScript
 image: /images/relationships.jpg
 date: 2020-01-23
-description: 
+description: JavaScript is good— for the right jobs.
 tags: JavaScript
 github:
 link:

@@ -2,7 +2,7 @@
 title: Upholding Uniformity
 image: /images/patterns.jpg
 date: 2020-02-13
-description: 
+description: Even though cumbersome, coding standards are for the best.
 tags: Coding Standards, Uniformity, Linters
 github:
 link:

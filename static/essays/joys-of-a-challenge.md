@@ -2,7 +2,7 @@
 title: The Joys of a Challenge
 image: /images/diving.jpg
 date: 2020-02-06
-description: 
+description: Software engineering is an extensive field, and I hope to explore it.
 tags: Software Engineering
 github:
 link:
