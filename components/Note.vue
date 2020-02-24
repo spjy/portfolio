@@ -1,7 +1,6 @@
 <template>
-  <div class="flex-none rounded overflow-hidden shadow-lg card m-4">
-    <img class="w-full" :src="image" style="height: 290px" />
-    <div class="px-6 pt-4 pb-4">
+  <div class="flex-none rounded overflow-hidden shadow-lg card m-2">
+    <div class="px-6 py-4">
       <div class="font-bold text-lg mb-1">
         {{ title }}
       </div>
@@ -28,10 +27,6 @@
 export default {
   props: {
     title: {
-      type: String,
-      required: true
-    },
-    image: {
       type: String,
       required: true
     },

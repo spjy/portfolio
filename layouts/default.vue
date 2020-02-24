@@ -9,10 +9,10 @@
           <router-link to="/" class="flex-1 text-gray-700 text-center px-2">
             Overview
           </router-link>
-          <a class="flex-1 text-gray-700 text-center px-2">
+          <a href="#projects" class="flex-1 text-gray-700 text-center px-2">
             Skills
           </a>
-          <a class="flex-1 text-gray-700 text-center px-2">
+          <a href="#projects" class="flex-1 text-gray-700 text-center px-2">
             Projects
           </a>
           <a class="flex-1 text-gray-700 text-center px-2">

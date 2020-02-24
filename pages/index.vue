@@ -24,6 +24,7 @@
       <Skills :skills="$store.state.settings.skills" />
     </Section>
 
+    <a href="#projects"></a>
     <Section title="Projects" cards>
       <Project
         v-for="(project, key) in projects"

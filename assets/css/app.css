@@ -84,3 +84,7 @@ image.centered {
   display: block;
   margin: 0 auto;
 }
+
+.description-card {
+  background-color: #393e46;
+}

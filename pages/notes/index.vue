@@ -1,32 +1,50 @@
 <template>
-  <div>
-    <Header
-      header="Guides"
-      description="Quick notes of various academic topics."
+  <div class="flex p-4 flex-wrap">
+    <Note
+      class="flex-initial"
+      v-for="(topic, key) in topics"
+      :key="topic"
+      :title="topic.frontmatter.header"
+      :description="topic.frontmatter.description"
+      :link="`/notes/${key}`"
     />
-    <div class="flex p-4 flex-wrap">
-      <nuxt-link
-        v-for="topic in topics"
-        :key="topic"
-        :to="`/notes/${topic}`"
-        class="flex-1 p-2"
-      >
-        <a-card hoverable :title="topic.toUpperCase()" />
-      </nuxt-link>
-    </div>
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header'
+import Vue from 'vue'
+import Note from '../../components/Note'
 
 export default {
   components: {
-    Header
+    Note
   },
   data() {
     return {
       topics: []
+    }
+  },
+  async asyncData({ params }) {
+    const topics = {}
+
+    await Promise.all(
+      require
+        .context('../../static/jotted-topics/', true, /\.md$/)
+        .keys()
+        .map(async file => {
+          const filename = file.split('./')[1].split('.')[0] // rid of ./ then rid of .md
+
+          const markdown = await import(`~/static/jotted-topics/${filename}.md`)
+
+          topics[filename] = Vue.prototype.$markdown(markdown.default)
+        })
+    )
+
+    // eslint-disable-next-line
+    console.log(topics)
+
+    return {
+      topics
     }
   },
   methods: {
@@ -39,11 +57,6 @@ export default {
         this.topics.push(file.match(/\/(.*?)\./)[1])
       })
     }
-  },
-  mounted() {
-    this.importAll(
-      require.context('../../static/jotted-topics/', true, /\.md$/)
-    )
   }
 }
 </script>
