@@ -11,7 +11,7 @@
         :link="frontmatter.link"
       />
     </div>
-    <div class="w-3/4 p-4 h-full text-base">
+    <div class="w-3/4 p-4 h-full text-base rounded shadow description-card">
       <div class="mb-5 text-lower font-mono">
         ESSAY
       </div>
