@@ -6,21 +6,15 @@
       </div>
       <div class="flex-1 text-gray-700 text-center bg-gray-400">
         <div class="flex">
-          <router-link to="/" class="flex-1 text-gray-700 text-center px-2">
+          <router-link
+            to="/"
+            class="flex-initial text-gray-700 text-center pr-6"
+          >
             Overview
           </router-link>
-          <a href="#projects" class="flex-1 text-gray-700 text-center px-2">
-            Skills
-          </a>
-          <a href="#projects" class="flex-1 text-gray-700 text-center px-2">
-            Projects
-          </a>
-          <a class="flex-1 text-gray-700 text-center px-2">
-            Essays
-          </a>
           <router-link
             to="/notes"
-            class="flex-1 text-gray-700 text-center px-2"
+            class="flex-initial text-gray-700 text-center"
           >
             Notes
           </router-link>
