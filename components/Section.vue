@@ -1,7 +1,7 @@
 <template>
   <div class="p-10">
     <div>
-      <h2 class="accent section font-mono text-3xl uppercase">
+      <h2 class="accent-green section font-mono text-3xl uppercase">
         {{ title }}
       </h2>
     </div>

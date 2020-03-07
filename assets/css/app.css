@@ -6,7 +6,7 @@
 
 a {
   color: #a3f7bf;
-  transition: color .2s;
+  transition: color cubic-bezier(.46,.62,.55,.45) .2s;
   font-family: monospace;
 }
 
@@ -14,7 +14,7 @@ a:hover {
   color: #29A19C;
 }
 
-.accent {
+.accent-green {
   color: #a3f7bf;
 }
 
@@ -28,7 +28,7 @@ a:hover {
 .accent-underline:hover {
   cursor: default;
 }
-
+/* 
 .accent-underline:before {
   content: '';
   position: absolute;
@@ -37,7 +37,7 @@ a:hover {
   bottom: 0;
   left: 0;
   background-color: #a3f7bf;
-}
+} */
 
 p {
   color: rgb(219, 219, 219);
@@ -47,13 +47,13 @@ p {
 .arrow {
   position: relative;
   left: 0;
-  transition: left ease 0.3s;
+  transition: left cubic-bezier(.46,.62,.55,.45) 0.3s;
 }
 
 .read-more {
   position: relative;
   left: 0;
-  transition: left ease 0.3s;
+  transition: left cubic-bezier(.46,.62,.55,.45) 0.3s;
 }
 
 .read-more:hover {

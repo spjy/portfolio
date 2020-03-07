@@ -2,7 +2,7 @@
   <div>
     <Intro />
 
-    <Section title="Who">
+    <Section id="me" title="Who">
       <p>
         Hi there! I reside in O'ahu, Hawai'i and have been here all my life. I'm
         a full time student at the University of Hawai'i at Mānoa.
@@ -24,7 +24,7 @@
       <Skills :skills="$store.state.settings.skills" />
     </Section>
 
-    <Section title="Projects" cards>
+    <Section id="projects" title="Projects" cards>
       <Project
         v-for="(project, key) in projects"
         :key="key"
@@ -36,7 +36,7 @@
       />
     </Section>
 
-    <Section title="Essays" cards>
+    <Section id="essays" title="Essays" cards>
       <Essay
         v-for="(essay, key) in essays"
         :key="key"
@@ -46,6 +46,12 @@
         :link="`/essays/${key}`"
       />
     </Section>
+
+    <div class="footer font-mono text-center p-4">
+      <a>
+        Designed by Spencer Young
+      </a>
+    </div>
   </div>
 </template>
 
@@ -123,6 +129,10 @@ export default {
   z-index: -1;
   transform: rotate(15deg);
 } */
+
+.footer {
+  background-color: #393e46;
+}
 
 .container {
   margin: 0 auto;

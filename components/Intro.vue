@@ -2,7 +2,7 @@
   <div class="background w-full">
     <div class="flex justify-center">
       <div class="heading py-10 px-10">
-        <h1 class="title accent font-bold">
+        <h1 class="title accent-green font-bold">
           Hi, I am Spencer Young,
         </h1>
 
@@ -20,6 +20,11 @@
         </p>
         <p>
           Hopefully graduating in December of 2020.
+        </p>
+        <p class="text-center">
+          <a href="#me" class="pt-10 scroll-indicator text-2xl">
+            <a-icon type="down-circle" />
+          </a>
         </p>
       </div>
     </div>
@@ -41,7 +46,22 @@ export default {}
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .title {
   font-size: 60px;
+}
+
+.scroll-indicator {
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+
+.scroll-indicator:hover {
+  top: 2px;
+  cursor: pointer;
 }
 </style>

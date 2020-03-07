@@ -5,20 +5,12 @@
         spjy
       </div>
       <div class="flex-1 text-gray-700 text-center bg-gray-400">
-        <div class="flex">
-          <router-link
-            to="/"
-            class="flex-initial text-gray-700 text-center pr-6"
-          >
-            Overview
-          </router-link>
-          <router-link
-            to="/notes"
-            class="flex-initial text-gray-700 text-center"
-          >
-            Notes
-          </router-link>
-        </div>
+        <router-link to="/" class="flex-initial text-gray-700 pr-6">
+          Overview
+        </router-link>
+        <router-link to="/notes" class="flex-initial text-gray-700">
+          Notes
+        </router-link>
       </div>
       <div class="flex-1 text-gray-700 text-right bg-gray-400 text-lg">
         <a

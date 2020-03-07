@@ -1,7 +1,7 @@
 <template>
   <div>
     <img v-if="image" class="mb-5 shadow-lg rounded" :src="image" />
-    <div class="accent text-xl font-bold">
+    <div class="accent-green text-xl font-bold">
       {{ title }}
     </div>
     <div class="mb-1 text-sm text-lower font-mono">
