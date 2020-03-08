@@ -22,8 +22,16 @@
           Hopefully graduating in December of 2020.
         </p>
         <div class="text-center">
-          <a href="#me" class="accent-pt-10 scroll-indicator text-2xl">
-            <a-icon type="down-circle" />
+          <a href="#me" class="no-accent">
+            <svg
+              class="h-8 inline scroll-indicator"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M10 20a10 10 0 110-20 10 10 0 010 20zm0-2a8 8 0 100-16 8 8 0 000 16zm-2-8V5h4v5h3l-5 5-5-5h3z"
+              />
+            </svg>
           </a>
         </div>
       </div>
@@ -51,6 +59,7 @@ export default {}
 }
 
 .scroll-indicator {
+  fill: #a3f7bf;
   position: relative;
   top: 0;
   transition: top ease 0.3s;
