@@ -5,12 +5,17 @@
     <Section id="me" title="Who">
       <p>
         Hi there! I reside in O'ahu, Hawai'i and have been here all my life. I'm
-        a full time student at the University of Hawai'i at Mānoa.
+        a full time student at the
+        <a href="https://manoa.hawaii.edu/" class="external"
+          >University of Hawai'i at Mānoa</a
+        >.
       </p>
 
       <p>
-        I currently work at the Hawaii Space Flight Laboratory as a satellite
-        assistant software developer.
+        I currently work at the
+        <a href="" class="external">Hawaii Space Flight Laboratory</a> as a
+        satellite assistant software developer; however, I am also looking for
+        an internship for Summer of 2020.
       </p>
 
       <p>

@@ -21,11 +21,11 @@
         <p>
           Hopefully graduating in December of 2020.
         </p>
-        <p class="text-center">
-          <a href="#me" class="pt-10 scroll-indicator text-2xl">
+        <div class="text-center">
+          <a href="#me" class="accent-pt-10 scroll-indicator text-2xl">
             <a-icon type="down-circle" />
           </a>
-        </p>
+        </div>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 @media only screen and (min-width: 700px) {
   .background {
     position: relative;
@@ -44,10 +44,6 @@ export default {}
     height: 100vh;
     padding-top: 150px;
   }
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .title {

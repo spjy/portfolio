@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-none rounded overflow-hidden shadow-lg card m-2">
+  <div class="flex-1 rounded overflow-hidden shadow-lg card m-2">
     <div class="px-6 py-4">
       <div class="font-bold text-lg mb-1">
         {{ title }}
@@ -17,14 +17,19 @@
       </p>
       <router-link :to="link" class="read-more">
         Read More
-        <a-icon class="arrow" type="arrow-right" />
+        <ArrowIcon />
       </router-link>
     </div>
   </div>
 </template>
 
 <script>
+import ArrowIcon from './ArrowIcon'
+
 export default {
+  components: {
+    ArrowIcon
+  },
   props: {
     title: {
       type: String,
@@ -46,4 +51,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped></style>

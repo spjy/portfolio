@@ -43,10 +43,4 @@ export default {
 }
 </script>
 
-<style>
-.font {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: normal;
-}
-</style>
+<style scoped></style>

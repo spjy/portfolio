@@ -1,5 +1,5 @@
 <template>
-  <div class="toc description-card rounded shadow p-4">
+  <div class="sticky-info description-card rounded shadow p-4">
     <h2>
       Table of Contents
     </h2>
@@ -29,15 +29,4 @@ export default {
 }
 </script>
 
-<style>
-html {
-  scroll-behavior: smooth;
-}
-
-.toc {
-  position: sticky;
-  top: 5px;
-  height: calc(100vh - 5px);
-  overflow-y: auto;
-}
-</style>
+<style scoped></style>

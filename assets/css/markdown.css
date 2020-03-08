@@ -14,7 +14,7 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #4d4d4d !important;
+  background: rgb(69, 73, 80) !important;
 }
 
 .hljs-built_in,
@@ -79,6 +79,9 @@
 }
 
 h1 {
+  
+  font-size: 2em;
+  margin-bottom: 0.5em;
   color: white;
   padding-top: 0.5em;
   border-bottom: 1px solid;
@@ -87,12 +90,15 @@ h1 {
 }
 
 h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
   color: white;
   padding-top: 1em;
   border-image-source: linear-gradient(90deg, rgb(109, 109, 109) 0%, rgba(57,62,70,1) 100%);  border-image-slice: 1;
 }
 
 h3 {
+  font-size: 1.17em;
   color: white;
   padding-top: 0.75em;
   font-weight: bold;
@@ -130,7 +136,7 @@ section {
   text-align: left;
   padding: 0.65em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
-  background-color: #4d4d4d;
+  background-color: rgb(69, 73, 80);
   margin: 1em 0;
 }
 
@@ -147,16 +153,16 @@ section {
 pre {
   padding: 0.7em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
-  background-color: #4d4d4d;
+  background-color: rgb(69, 73, 80);
   font-family: 'Consolas', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 1em 0;
 }
 
 p img {
   border-radius: 5px;
-  padding: 1em;
+  padding: 0.5em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
-  background-color: #b9b9b9;
+  background-color: rgb(69, 73, 80);
   margin: 0.5em 0;
   margin-right: 0.5em;
 }
@@ -181,12 +187,12 @@ th {
 }
 
 thead {
-  background-color: #4d4d4d;
+  background-color: rgb(69, 73, 80);
 }
 
 table {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
-  background-color: #4d4d4d;
+  background-color: rgb(69, 73, 80);
   margin: 1em 0;
 }
 
@@ -196,12 +202,7 @@ th, td {
 
 p a {
   color: #a3f7bf;
-  /* border-bottom: #a3f7bf 1px dashed; */
   transition: color .3s, border-bottom .3s;
-}
-
-p a:hover {
-  /* border-bottom: #29a19c 1px dashed; */
 }
 
 code {

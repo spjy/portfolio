@@ -1,17 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body {
+  background-color: #222831;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222831;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a3f7bf;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #29a19c;
+}
+
 .off-card {
   background-color: #303030;
 }
 
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+.description-card {
+  background-color: #393e46;
+}
+
+p {
+  color: rgb(219, 219, 219);
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
 
 a {
+  position: relative;
   color: #a3f7bf;
   transition: color cubic-bezier(.46,.62,.55,.45) .2s;
   font-family: monospace;
 }
 
-a:hover {
-  color: #29A19C;
+a:hover  {
+  color: #a3f7bf;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #a3f7bf;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.no-accent:before {
+  content: none;
+}
+
+.no-accent:hover:before {
+  content: none;
 }
 
 .accent-green {
@@ -19,29 +95,8 @@ a:hover {
 }
 
 .accent-underline {
-  position: relative;
-  text-decoration: none;
-  font-family: monospace;
   padding: 0px 2px 3px 2px;
-}
-
-.accent-underline:hover {
-  cursor: default;
-}
-/* 
-.accent-underline:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #a3f7bf;
-} */
-
-p {
-  color: rgb(219, 219, 219);
-  font-size: 16px;
+  font-weight: bold;
 }
 
 .arrow {
@@ -54,6 +109,10 @@ p {
   position: relative;
   left: 0;
   transition: left cubic-bezier(.46,.62,.55,.45) 0.3s;
+}
+
+.read-more:hover:before {
+  content: none
 }
 
 .read-more:hover {
@@ -85,6 +144,17 @@ image.centered {
   margin: 0 auto;
 }
 
-.description-card {
-  background-color: #393e46;
+.sticky-info {
+  position: sticky;
+  top: 1em;
+  overflow-y: auto;
+}
+
+.icons {
+  fill: white;
+  transition: fill cubic-bezier(0.46, 0.62, 0.55, 0.45) 0.2s;
+}
+
+.icons:hover {
+  fill: #a3f7bf;
 }

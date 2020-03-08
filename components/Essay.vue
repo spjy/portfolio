@@ -17,14 +17,19 @@
       </p>
       <router-link :to="link" class="read-more">
         Read More
-        <a-icon class="arrow" type="arrow-right" />
+        <ArrowIcon />
       </router-link>
     </div>
   </div>
 </template>
 
 <script>
+import ArrowIcon from './ArrowIcon'
+
 export default {
+  components: {
+    ArrowIcon
+  },
   props: {
     title: {
       type: String,
@@ -46,4 +51,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped></style>

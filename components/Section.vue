@@ -5,7 +5,7 @@
         {{ title }}
       </h2>
     </div>
-    <div :class="cards ? 'flex flex-no-wrap overflow-x-scroll' : 'pl-20'">
+    <div :class="cards ? 'flex flex-no-wrap overflow-x-scroll' : 'md:pl-20'">
       <slot />
     </div>
   </div>
@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .section {
   display: flex;
   width: 100%;

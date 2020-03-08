@@ -61,7 +61,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .clickable {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
 }

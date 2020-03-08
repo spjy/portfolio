@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @media only screen and (min-width: 500px) {
   .header-lg {
     background-image: url('/background.svg');

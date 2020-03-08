@@ -1,6 +1,6 @@
 <template>
   <div class="flex p-6">
-    <div class="w-1/4 p-4">
+    <div class="w-1/4 px-4">
       <Information
         :title="frontmatter.title"
         :image="frontmatter.image"
@@ -49,4 +49,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped></style>
