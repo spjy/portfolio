@@ -3,7 +3,7 @@ title: Reasonable Repetition
 image: /images/cookie-cutter.jpg
 date: 2020-02-27
 description: Repetition is boring. Repetition is boring. Repetition is boring.
-tags: Coding Standards, Uniformity, Linters
+tags: UI Frameworks, CSS, HTML, Repetition
 github:
 link:
 ---
