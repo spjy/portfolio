@@ -1,3 +1,4 @@
+import path from 'path'
 import fs from 'fs'
 import pkg from './package'
 
@@ -25,12 +26,12 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/tailwind.css', 'ant-design-vue/dist/antd.css'],
+  css: ['~/assets/css/tailwind.css'],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/antd-ui', '@/plugins/markdown.js'],
+  plugins: ['@/plugins/markdown.js'],
 
   /*
    ** Nuxt.js modules
@@ -117,6 +118,11 @@ export default {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+    },
+    postcss: {
+      plugins: {
+        tailwindcss: path.resolve(__dirname, './tailwind.config.js')
       }
     }
   }
