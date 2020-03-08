@@ -28,7 +28,7 @@ export default {
   },
   /** Import markdown files asyncronously for rendering */
   async asyncData({ params }) {
-    const markdown = await import(`~/static/jotted-topics/${params.topic}.md`)
+    const markdown = await import(`~/static/notes/${params.topic}.md`)
 
     const { output, frontmatter, toc } = Vue.prototype.$markdown(
       markdown.default

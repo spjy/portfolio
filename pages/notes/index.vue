@@ -29,12 +29,12 @@ export default {
 
     await Promise.all(
       require
-        .context('../../static/jotted-topics/', true, /\.md$/)
+        .context('../../static/notes/', true, /\.md$/)
         .keys()
         .map(async file => {
           const filename = file.split('./')[1].split('.')[0] // rid of ./ then rid of .md
 
-          const markdown = await import(`~/static/jotted-topics/${filename}.md`)
+          const markdown = await import(`~/static/notes/${filename}.md`)
 
           topics[filename] = Vue.prototype.$markdown(markdown.default)
         })

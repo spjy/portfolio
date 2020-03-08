@@ -52,7 +52,7 @@ export default {
       return new Promise((resolve, reject) => {
         const routes = []
 
-        fs.readdir('./static/jotted-topics/', (err, files) => {
+        fs.readdir('./static/notes/', (err, files) => {
           if (err) {
             reject(err)
           } else {
