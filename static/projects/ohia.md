@@ -12,7 +12,7 @@ ohia.ai is an application that identifies primarily Hawaiian plants and aggregat
 
 Technologically, it consists of a Vue.js frontend, Node.js server and TensorFlow for machine learning. Due to the short deadlines of the challenge, we used the [Quasar framework](https://quasar.dev/) for [Vue.js](https://vuejs.org/) for rapid development. It provides pre-built material design user interface components and quality of life Vue.js features. For example, it allows for a simple conversion into a mobile application from a web application. Furthermore, we used the Node.js server as a middleware, gluing together the database, frontend and the plant identification. Finally, we used [TensorFlow Keras](https://www.tensorflow.org/guide/keras), specifically the [MobileNet V1 model](https://arxiv.org/abs/1704.04861), to handle the plant identification on phones. 
 
-<img class="ui medium centered image" src="{{ site.baseurl }}/images/ohia-app.jpg" style="margin: 10px;">
+<img class="h-36" src="/images/ohia-app.jpg" />
 
 I met this group through a friend, and we meshed together well. Within the group, I worked primarily on the web application portion, namely with Vue.js and the Quasar Framework. Our main goal was to create a mobile application with it in order to exploit the camera of smartphones. 
 
