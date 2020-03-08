@@ -32,7 +32,9 @@
     "markdown-it-texmath": "^0.5.5",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "markdown-it-underline": "^1.0.1",
-    "nuxt": "^2.4.0"
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.4.0",
+    "sass-loader": "^8.0.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
@@ -60,7 +62,7 @@
     "nodemon": "^1.18.9",
     "prettier": "^1.16.4",
     "raw-loader": "^2.0.0",
-    "tailwindcss": "^0.7.0",
+    "tailwindcss": "^1.0",
     "vue-jest": "^3.0.3"
   }
 }
