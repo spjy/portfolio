@@ -1,9 +1,9 @@
 <template>
   <div class="flex p-4 flex-wrap">
     <Note
-      class="flex-initial"
       v-for="(topic, key) in topics"
-      :key="topic"
+      :key="key"
+      class="flex-initial"
       :title="topic.frontmatter.header"
       :description="topic.frontmatter.description"
       :link="`/notes/${key}`"
@@ -39,9 +39,6 @@ export default {
           topics[filename] = Vue.prototype.$markdown(markdown.default)
         })
     )
-
-    // eslint-disable-next-line
-    console.log(topics)
 
     return {
       topics

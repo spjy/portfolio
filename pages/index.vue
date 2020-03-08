@@ -15,7 +15,7 @@
         I currently work at the
         <a href="" class="external">Hawaii Space Flight Laboratory</a> as a
         satellite assistant software developer; however, I am also looking for
-        an internship for Summer of 2020.
+        an internship.
       </p>
 
       <p>
@@ -53,9 +53,9 @@
     </Section>
 
     <div class="footer font-mono text-center p-4">
-      <a>
+      <div>
         Designed by Spencer Young
-      </a>
+      </div>
     </div>
   </div>
 </template>

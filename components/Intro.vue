@@ -21,7 +21,7 @@
         <p>
           Hopefully graduating in December of 2020.
         </p>
-        <div class="text-center">
+        <div class="text-center mt-20">
           <a href="#me" class="no-accent">
             <svg
               class="h-8 inline scroll-indicator"
