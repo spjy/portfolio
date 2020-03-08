@@ -1,7 +1,7 @@
 {
-  "name": "Spencer Young's Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Spencer Young's Portfolio",
+  "description": "Spencer Young's Portfolio Website",
   "author": "Spencer",
   "private": true,
   "scripts": {
