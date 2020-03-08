@@ -147,7 +147,7 @@ image.centered {
 .sticky-info {
   position: sticky;
   top: 1em;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 .icons {
