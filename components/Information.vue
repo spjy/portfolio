@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-info">
-    <img v-if="image" class="mb-5 shadow-lg rounded" :src="image" />
+    <img v-if="image" class="mb-5 w-full rounded" :src="image" />
     <div class="accent-green text-xl font-bold">
       {{ title }}
     </div>
