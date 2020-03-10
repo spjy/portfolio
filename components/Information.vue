@@ -4,7 +4,7 @@
     <div class="accent-green text-xl font-bold">
       {{ title }}
     </div>
-    <div class="mb-1 text-sm text-lower font-mono">
+    <div class="mb-4 text-sm text-lower font-mono">
       {{ date }}
     </div>
     <div class="mb-4 text-base">
