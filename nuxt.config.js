@@ -83,7 +83,7 @@ export default {
                 files.forEach(file => {
                   const filename = file.split('.')
                   if (filename[1] === 'md') {
-                    routes.push(`/project/${filename[0]}`)
+                    routes.push(`/projects/${filename[0]}`)
                   }
                 })
 
