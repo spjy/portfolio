@@ -14,7 +14,6 @@
 <script>
 import Vue from 'vue'
 import Note from '../../components/Note'
-import '@/assets/css/app.css'
 
 export default {
   components: {

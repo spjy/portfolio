@@ -62,7 +62,6 @@
 
 <script>
 import Vue from 'vue'
-import '@/assets/css/app.css'
 import Intro from '../components/Intro'
 import Section from '../components/Section'
 import Essay from '../components/Essay'
