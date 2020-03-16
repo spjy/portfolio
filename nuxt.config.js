@@ -73,21 +73,21 @@ export default {
                     routes.push(`/essays/${filename[0]}`)
                   }
                 })
-              }
-            })
 
-            fs.readdir('./static/projects/', (err, files) => {
-              if (err) {
-                reject(err)
-              } else {
-                files.forEach(file => {
-                  const filename = file.split('.')
-                  if (filename[1] === 'md') {
-                    routes.push(`/projects/${filename[0]}`)
+                fs.readdir('./static/projects/', (err, files) => {
+                  if (err) {
+                    reject(err)
+                  } else {
+                    files.forEach(file => {
+                      const filename = file.split('.')
+                      if (filename[1] === 'md') {
+                        routes.push(`/projects/${filename[0]}`)
+                      }
+                    })
+
+                    resolve(routes)
                   }
                 })
-
-                resolve(routes)
               }
             })
           }
