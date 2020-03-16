@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="flex justify-around p-6 font-mono">
-      <div class="flex-1">
-        <router-link to="/" class="text-left">
-          spjy
+      <div class="flex-1 p-1">
+        <router-link to="/" class="text-left no-accent">
+          <img class="h-10" src="~/static/images/logo.png" />
         </router-link>
       </div>
-      <div class="flex-1 text-center">
+      <div class="flex-1 text-center p-1">
         <router-link to="/notes" class="flex-initial">
           Notes
         </router-link>
       </div>
-      <div class="flex-1 text-right">
+      <div class="flex-1 text-right p-1">
         <a
           class="no-accent"
           :href="$store.state.settings.linkedIn"
