@@ -56,6 +56,7 @@ a {
   color: #a3f7bf;
   transition: color cubic-bezier(.46,.62,.55,.45) .2s;
   font-family: monospace;
+  font-size: 16px;
 }
 
 a:hover  {
