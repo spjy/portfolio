@@ -3,7 +3,7 @@
     <div class="flex justify-around p-6 font-mono">
       <div class="flex-1 p-1">
         <router-link to="/" class="text-left no-accent">
-          <img class="h-10" src="~/static/images/logo.png" />
+          <img class="h-8" src="~/static/images/logo.png" />
         </router-link>
       </div>
       <div class="flex-1 text-center p-1">
