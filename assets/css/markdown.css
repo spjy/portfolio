@@ -197,7 +197,7 @@ thead {
 }
 
 table {
-  display: block;
+  display: inline-block;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
   background-color: rgb(69, 73, 80);
   margin: 1em 0;
