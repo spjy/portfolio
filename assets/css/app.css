@@ -2,7 +2,7 @@
 
 body {
   background-color: #222831;
-  color: white;
+  color: rgb(211,211,211);
   font-family: 'PT Sans', sans-serif;
   margin: 0;
 }
@@ -42,7 +42,7 @@ html {
 }
 
 p {
-  color: rgb(219, 219, 219);
+  color: rgb(211,211,211);
   font-size: 16px;
   margin-bottom: 1em;
 }
@@ -148,7 +148,7 @@ image.centered {
 
 .sticky-info {
   position: sticky;
-  top: 1em;
+  top: 0.3em;
   overflow: auto;
 }
 
