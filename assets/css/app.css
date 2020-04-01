@@ -44,7 +44,7 @@ html {
 p {
   color: rgb(211,211,211);
   font-size: 16px;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
@@ -53,7 +53,7 @@ a, a:hover, a:active, a:visited, a:focus {
 
 a {
   position: relative;
-  color: #a3f7bf;
+  color: #a3f7bf !important;
   transition: color cubic-bezier(.46,.62,.55,.45) .2s;
   font-family: monospace;
   font-size: 16px;

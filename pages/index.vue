@@ -3,28 +3,39 @@
     <Intro />
 
     <Section id="me" title="Who">
-      <p>
-        Hi there! I reside in O'ahu, Hawai'i and have been here all my life. I'm
-        a full time student at the
-        <a href="https://manoa.hawaii.edu/" class="external"
-          >University of Hawai'i at Mānoa</a
-        >.
-      </p>
+      <div class="flex">
+        <div class="w-3/4">
+          <p>
+            Hi there! I reside in O'ahu, Hawai'i and have been here all my life.
+            I'm a full time student at the
+            <a href="https://manoa.hawaii.edu/" class="external"
+              >University of Hawai'i at Mānoa</a
+            >.
+          </p>
 
-      <p>
-        I currently work at the
-        <a href="" class="external">Hawaii Space Flight Laboratory</a> as a
-        satellite assistant software developer; however, I am also looking for
-        an internship.
-      </p>
+          <p>
+            I currently work at the
+            <a href="" class="external">Hawaii Space Flight Laboratory</a> as a
+            satellite assistant software developer; however, I am also looking
+            for an internship.
+          </p>
 
-      <p>
-        In my spare time, I enjoy gardening, photography and coding.
-      </p>
+          <p>
+            In my spare time, I enjoy gardening, photography and coding.
+          </p>
 
-      <p>
-        I have some skills under my belt:
-      </p>
+          <p>
+            I have some skills under my belt:
+          </p>
+        </div>
+        <div class="w-1/4">
+          <img
+            class="rounded h-32 m-2"
+            src="~/static/images/spencer.png"
+            alt=""
+          />
+        </div>
+      </div>
 
       <Skills :skills="$store.state.settings.skills" />
     </Section>
