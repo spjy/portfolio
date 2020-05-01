@@ -14,6 +14,20 @@
       <div class="flex-1 text-right p-1">
         <a
           class="no-accent"
+          href="/resume.pdf"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            class="h-5 inline icons"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M4 18h12V6h-4V2H4v16zm-2 1V0h12l4 4v16H2v-1z" />
+          </svg>
+        </a>
+        <a
+          class="no-accent"
           :href="$store.state.settings.linkedIn"
           rel="noopener noreferrer"
           target="_blank"
