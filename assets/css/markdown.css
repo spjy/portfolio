@@ -221,15 +221,17 @@ ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
+  padding-bottom: 0.5em;
 }
 
 ul li {
   padding-left: 1.7em;
+  margin: 3px;
 }
 
 ul:not(.ant-menu) li:before {
   content: "ー";
-  color: #a5a5a5;
+  color: #a3f7bf;
   padding-right: 5px;
 }
 
