@@ -2,7 +2,7 @@
   <div>
     <div class="sm:block md:flex lg:flex xl:flex">
       <div class="sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 mx-auto p-4">
-        <TableOfContents :toc="toc" />
+        <TableOfContents :toc="toc" :note="frontmatter" />
       </div>
       <div class="sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5 p-4">
         <div

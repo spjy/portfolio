@@ -2,6 +2,8 @@
   <div
     class="toc sticky-info description-card rounded shadow p-4 overflow-y-auto"
   >
+    <h1>{{ note.header }}</h1>
+    <p>{{ note.description }}</p>
     <h2>
       Table of Contents
     </h2>
@@ -23,6 +25,10 @@
 <script>
 export default {
   props: {
+    note: {
+      type: Object,
+      required: true
+    },
     toc: {
       type: Array,
       required: true
