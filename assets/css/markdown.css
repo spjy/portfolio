@@ -177,6 +177,7 @@ p img {
   color: #a3f7bf;
   padding: 1px;
   text-decoration: none; 
+  font-size: inherit;
 }
 
 .markdownIt-Anchor:hover {
