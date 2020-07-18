@@ -247,3 +247,7 @@ u {
 .description-card {
   background-color: #393e46;
 }
+
+blockquote {
+  padding-left: 1em;
+}
