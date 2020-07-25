@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/sitemap": "^2.4.0",
     "cross-env": "^7.0.2",
     "highlight.js": "^9.18.1",
     "js-yaml": "^3.13.1",
