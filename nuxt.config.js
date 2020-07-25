@@ -47,6 +47,15 @@ export default {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
+  buildModules: [
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-173554868-1'
+      }
+    ]
+  ],
+
   generate: {
     routes() {
       return new Promise((resolve, reject) => {
