@@ -249,5 +249,16 @@ u {
 }
 
 blockquote {
-  padding-left: 1em;
+  white-space: nowrap;
+  text-align: left;
+  max-width: 100%;
+  padding: 0.65em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  background-color: rgb(69, 73, 80);
+  margin: 0.5em 0;
+  border-left: 2px #29A19C solid;
+}
+
+blockquote p {
+  padding: 0;
 }
