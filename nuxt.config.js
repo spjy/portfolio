@@ -41,6 +41,10 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    hostname: 'https://spjy.github.io'
+  },
   /*
    ** Axios module configuration
    */
