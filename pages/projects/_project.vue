@@ -17,6 +17,7 @@
       <div class="mb-5 text-lower font-mono">
         PROJECT
       </div>
+      <!-- eslint-disable-next-line vue/no-v-html -->
       <p v-html="markdown" />
     </div>
   </div>

@@ -19,11 +19,6 @@ export default {
   components: {
     Note
   },
-  data() {
-    return {
-      topics: []
-    }
-  },
   async asyncData({ params }) {
     const topics = {}
 
@@ -42,6 +37,11 @@ export default {
 
     return {
       topics
+    }
+  },
+  data() {
+    return {
+      topics: []
     }
   },
   methods: {

@@ -5,10 +5,8 @@
         <TableOfContents :toc="toc" :note="frontmatter" />
       </div>
       <div class="sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5 p-4">
-        <div
-          class="rounded shadow description-card p-4"
-          v-html="markdown"
-        ></div>
+        <!-- eslint-disable-next-line vue/no-v-html -->
+        <div class="rounded shadow description-card p-4" v-html="markdown" />
       </div>
     </div>
   </div>
