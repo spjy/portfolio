@@ -15,13 +15,16 @@
 
           <p>
             I currently work at the
-            <a href="" class="external">Hawaii Space Flight Laboratory</a> as a
-            satellite assistant software developer; however, I am also looking
-            for an internship.
+            <a href="https://www.hsfl.hawaii.edu/" class="external"
+              >Hawaii Space Flight Laboratory</a
+            >
+            as a satellite assistant software developer; however, I am also
+            looking for an internship.
           </p>
 
           <p>
-            In my spare time, I enjoy gardening, photography and coding.
+            In my spare time, I enjoy finance, gardening, photography, and
+            coding.
           </p>
 
           <p>
