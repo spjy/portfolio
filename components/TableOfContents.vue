@@ -10,10 +10,14 @@
     <div
       v-for="content in toc"
       :key="content.anchor"
-      :class="content.level === 1 ? 'truncate font-bold text-lg' : 'truncate'"
+      :class="
+        content.level === 1
+          ? 'truncate font-bold text-lg'
+          : 'truncate border-l-2 hover:border-green-300'
+      "
       :href="`#${content.anchor}`"
       :title="content.content"
-      :style="`text-indent: ${0.8 * (content.level - 1)}em`"
+      :style="`margin-left: ${0.6 * (content.level - 1)}em; padding-left: 5px`"
     >
       <a :href="`#${content.anchor}`">
         {{ content.content }}
