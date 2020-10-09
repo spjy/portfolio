@@ -19,7 +19,7 @@
               >Hawaii Space Flight Laboratory</a
             >
             as a satellite assistant software developer; however, I am also
-            looking for an internship.
+            looking for full time employment.
           </p>
 
           <p>
