@@ -15,7 +15,7 @@
         <p>
           with interest in
           <span class="accent-underline">software engineering</span>,
-          <span class="accent-underline">machine learning</span> and
+          <span class="accent-underline">data science</span> and
           <span class="accent-underline">control systems</span>.
         </p>
         <p>
