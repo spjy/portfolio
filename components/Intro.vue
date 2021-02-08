@@ -2,24 +2,21 @@
   <div class="background w-full">
     <div class="flex justify-center">
       <div class="heading py-10 px-10">
-        <h1 class="title accent-green font-bold">
-          Hi, I am Spencer Young,
+        <h1 class="title font-bold">
+          Hi, I am <span class="accent-green">Spencer Young</span>
         </h1>
 
         <p>
-          a B.S. Candidate in
+          B.S.
           <span class="accent-underline">
             Computer Engineering
           </span>
         </p>
         <p>
-          with interest in
+          Interest in
           <span class="accent-underline">software engineering</span>,
-          <span class="accent-underline">data science</span> and
+          <span class="accent-underline">data science</span>, and
           <span class="accent-underline">control systems</span>.
-        </p>
-        <p>
-          Hopefully graduating in December of 2020.
         </p>
         <div class="text-center mt-20">
           <a href="#me" class="no-accent">
