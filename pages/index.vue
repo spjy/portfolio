@@ -6,20 +6,8 @@
       <div class="flex">
         <div class="w-3/4">
           <p>
-            Hi there! I reside in O'ahu, Hawai'i and have been here all my life.
-            I'm a full time student at the
-            <a href="https://manoa.hawaii.edu/" class="external"
-              >University of Hawai'i at Mānoa</a
-            >.
-          </p>
-
-          <p>
-            I currently work at the
-            <a href="https://www.hsfl.hawaii.edu/" class="external"
-              >Hawaii Space Flight Laboratory</a
-            >
-            as a satellite assistant software developer; however, I am also
-            looking for full time employment.
+            Hi there! I reside in Arizona, but I am from Hawai`i. I'm a full
+            time software engineer.
           </p>
 
           <p>
@@ -27,9 +15,7 @@
             coding.
           </p>
 
-          <p>
-            I have some skills under my belt:
-          </p>
+          <p>I have some skills under my belt:</p>
         </div>
         <div class="w-1/4">
           <img
@@ -67,9 +53,7 @@
     </Section>
 
     <div class="footer font-mono text-center p-4">
-      <div>
-        Designed by Spencer Young
-      </div>
+      <div>Designed by Spencer Young</div>
     </div>
   </div>
 </template>
@@ -88,7 +72,7 @@ export default {
     Section,
     Essay,
     Project,
-    Skills
+    Skills,
   },
   async asyncData({ params }) {
     const essays = {}
@@ -98,7 +82,7 @@ export default {
       require
         .context('../static/essays/', true, /\.md$/)
         .keys()
-        .map(async file => {
+        .map(async (file) => {
           const filename = file.split('./')[1].split('.')[0] // rid of ./ then rid of .md
 
           const markdown = await import(`~/static/essays/${filename}.md`)
@@ -111,7 +95,7 @@ export default {
       require
         .context('../static/projects/', true, /\.md$/)
         .keys()
-        .map(async file => {
+        .map(async (file) => {
           const filename = file.split('./')[1].split('.')[0]
 
           const markdown = await import(`~/static/projects/${filename}.md`)
@@ -122,9 +106,9 @@ export default {
 
     return {
       essays,
-      projects
+      projects,
     }
-  }
+  },
 }
 </script>
 

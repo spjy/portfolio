@@ -2,34 +2,36 @@
   <div class="background w-full">
     <div class="flex justify-center">
       <div class="heading py-10 px-10">
-        <h1 class="title accent-green font-bold">
-          Hi, I am Spencer Young,
-        </h1>
+        <h1 class="title accent-green font-bold">Hi, I am Spencer Young,</h1>
 
         <p>
-          a B.S. Candidate in
-          <span class="accent-underline">
-            Computer Engineering
-          </span>
+          Has a B.S. in
+          <span class="accent-underline">Computer Engineering</span>,
         </p>
         <p>
-          with interest in
+          interested in
           <span class="accent-underline">software engineering</span>,
           <span class="accent-underline">data science</span> and
-          <span class="accent-underline">control systems</span>.
+          <span class="accent-underline">control systems</span>,
         </p>
         <p>
-          Hopefully graduating in December of 2020.
+          professionally a
+          <span class="accent-underline">software engineer</span>.
         </p>
         <div class="text-center mt-20">
           <a href="#me" class="no-accent">
             <svg
-              class="h-8 inline scroll-indicator"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
+              class="h-8 inline scroll-indicator"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                d="M10 20a10 10 0 110-20 10 10 0 010 20zm0-2a8 8 0 100-16 8 8 0 000 16zm-2-8V5h4v5h3l-5 5-5-5h3z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
               />
             </svg>
           </a>
