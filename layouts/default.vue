@@ -12,7 +12,7 @@
         </router-link>
       </div>
       <div class="flex-1 text-right p-1">
-        <a
+        <!-- <a
           class="no-accent"
           href="/resume.pdf"
           rel="noopener noreferrer"
@@ -25,7 +25,7 @@
           >
             <path d="M4 18h12V6h-4V2H4v16zm-2 1V0h12l4 4v16H2v-1z" />
           </svg>
-        </a>
+        </a> -->
         <a
           class="no-accent"
           :href="$store.state.settings.linkedIn"
