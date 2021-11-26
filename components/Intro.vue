@@ -2,20 +2,19 @@
   <div class="background w-full">
     <div class="flex justify-center">
       <div class="heading py-10 px-10">
-        <h1 class="title accent-green font-bold">Hi, I am Spencer Young,</h1>
+        <h1 class="title accent-green font-bold">Hi, I am Spencer Young.</h1>
 
         <p>
-          Has a B.S. in
-          <span class="accent-underline">Computer Engineering</span>,
+          I have a Bachelor's of Science in
+          <span class="accent-underline">computer engineering</span>,
         </p>
         <p>
-          interested in
-          <span class="accent-underline">software engineering</span>,
-          <span class="accent-underline">data science</span> and
-          <span class="accent-underline">control systems</span>,
+          have an interest in
+          <span class="accent-underline">software engineering</span> and
+          <span class="accent-underline">data science</span>,
         </p>
         <p>
-          professionally a
+          and professionally am a
           <span class="accent-underline">software engineer</span>.
         </p>
         <div class="text-center mt-20">
