@@ -10,7 +10,7 @@
           </div>
         </div>
         <div v-for="s in skill" :key="s">
-          <div class="table-cell text-gray-400 px-4">
+          <div class="table-cell px-4">
             {{ s }}
           </div>
         </div>
