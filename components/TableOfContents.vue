@@ -60,7 +60,7 @@ h1 {
 }
 
 a {
-  font-family: 'Libre Franklin';
+  font-family: 'Inter';
   color: white !important;
 }
 </style>

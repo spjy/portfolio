@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
 body {
   background-color: #222831;
   color: rgb(211,211,211);
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
 }
 
