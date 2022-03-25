@@ -10,8 +10,7 @@
         </p>
         <p>
           have an interest in
-          <span class="accent-underline">software engineering</span> and
-          <span class="accent-underline">data science</span>,
+          <span class="accent-underline">embedded and full stack software engineering</span>,
         </p>
         <p>
           and professionally am a

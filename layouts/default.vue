@@ -7,9 +7,7 @@
         </router-link>
       </div>
       <div class="flex-1 text-center p-1">
-        <router-link to="/notes" class="flex-initial">
-          Notes
-        </router-link>
+        <router-link to="/notes" class="flex-initial">Notes</router-link>
       </div>
       <div class="flex-1 text-right p-1">
         <!-- <a

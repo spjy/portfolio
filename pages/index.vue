@@ -3,27 +3,18 @@
     <Intro />
 
     <Section id="me" title="Who">
-      <div class="flex">
-        <div class="w-3/4">
-          <p>
-            Hi there! I reside in Arizona, but I am from Hawai`i. I'm a full
-            time software engineer.
-          </p>
+      <div>
+        <p>
+          Hi there! I reside in Arizona, but I am from Hawai`i. I'm a full
+          time software engineer.
+        </p>
 
-          <p>
-            In my spare time, I enjoy finance, gardening, photography, and
-            coding.
-          </p>
+        <p>
+          In my spare time, I enjoy finance, gardening, photography, and
+          coding.
+        </p>
 
-          <p>I have some skills under my belt:</p>
-        </div>
-        <div class="w-1/4">
-          <img
-            class="rounded h-32 m-2"
-            src="~/static/images/spencer.png"
-            alt=""
-          />
-        </div>
+        <p>I have some skills under my belt:</p>
       </div>
 
       <Skills :skills="$store.state.settings.skills" />
