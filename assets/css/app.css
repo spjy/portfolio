@@ -47,47 +47,15 @@ p {
   padding-bottom: 15px;
 }
 
-a,
-a:hover,
-a:active,
-a:visited,
-a:focus {
-  text-decoration: none;
-}
-
 a {
-  position: relative;
   color: #a3f7bf !important;
-  transition: color cubic-bezier(0.46, 0.62, 0.55, 0.45) 0.2s;
+  transition: color, background-color cubic-bezier(0.46, 0.62, 0.55, 0.45) 0.15s;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 16px;
-  text-decoration: underline;
-  text-decoration-style: dotted;
 }
 
 a:hover {
-  color: #a3f7bf;
-}
-
-a:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #a3f7bf;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  color: #97e5b1 !important;
+  background-color: rgb(163, 247, 191, 0.1);
 }
 
 .no-accent:before {
@@ -128,7 +96,7 @@ a:hover:before {
 }
 
 .read-more:hover > .arrow {
-  left: 5px;
+  left: 7.5px;
 }
 
 .text-lower {
