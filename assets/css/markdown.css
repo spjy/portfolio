@@ -15,6 +15,7 @@
   overflow-x: auto;
   padding: 0.5em;
   background: rgb(69, 73, 80) !important;
+  font-family: 'IBM Plex Mono';
 }
 
 .hljs-built_in,
@@ -80,12 +81,16 @@
 
 h1 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.75em;
   margin-bottom: 0.5em;
   color: white;
   padding-top: 0.5em;
   border-bottom: 1px solid;
-  border-image-source: linear-gradient(90deg, rgb(109, 109, 109) 0%, rgba(57,62,70,1) 100%);
+  border-image-source: linear-gradient(
+    90deg,
+    rgb(109, 109, 109) 0%,
+    rgba(57, 62, 70, 1) 100%
+  );
   border-image-slice: 1;
 }
 
@@ -95,7 +100,12 @@ h2 {
   margin-bottom: 0.5em;
   color: white;
   padding-top: 1em;
-  border-image-source: linear-gradient(90deg, rgb(109, 109, 109) 0%, rgba(57,62,70,1) 100%);  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    90deg,
+    rgb(109, 109, 109) 0%,
+    rgba(57, 62, 70, 1) 100%
+  );
+  border-image-slice: 1;
 }
 
 h3 {
@@ -120,7 +130,7 @@ h5 {
 section {
   display: table;
   padding-left: 5px;
-  content: "";
+  content: '';
   clear: both;
 }
 
@@ -160,7 +170,7 @@ pre {
   padding: 0.7em;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
   background-color: rgb(69, 73, 80);
-  font-family: 'Consolas', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   margin: 1em 0;
 }
 
@@ -177,7 +187,7 @@ p img {
 .markdownIt-Anchor {
   color: #a3f7bf;
   padding: 1px;
-  text-decoration: none; 
+  text-decoration: none;
   font-size: inherit;
 }
 
@@ -206,13 +216,15 @@ table {
   overflow: auto;
 }
 
-th, td {
+th,
+td {
   padding: 0.5em 0.95em;
 }
 
 p a {
   color: #a3f7bf;
-  transition: color .3s, border-bottom .3s;
+  transition: color, background-color 0.3s, border-bottom 0.3s;
+  text-decoration: none !important;
 }
 
 code {
@@ -232,7 +244,7 @@ ul li {
 }
 
 ul:not(.ant-menu) li:before {
-  content: "ー";
+  content: 'ー';
   color: #a3f7bf;
   padding-right: 5px;
 }
@@ -258,7 +270,7 @@ blockquote {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
   background-color: rgb(69, 73, 80);
   margin: 0.5em 0;
-  border-left: 2px #29A19C solid;
+  border-left: 2px #29a19c solid;
 }
 
 blockquote p {
