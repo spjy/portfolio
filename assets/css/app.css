@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
 
 body {
   background-color: #222831;
-  color: rgb(211,211,211);
-  font-family: 'Inter', sans-serif;
+  color: rgb(211, 211, 211);
+  font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -47,24 +47,30 @@ p {
   padding-bottom: 15px;
 }
 
-a, a:hover, a:active, a:visited, a:focus {
-  text-decoration:none;
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
 }
 
 a {
   position: relative;
   color: #a3f7bf !important;
-  transition: color cubic-bezier(.46,.62,.55,.45) .2s;
-  font-family: monospace;
+  transition: color cubic-bezier(0.46, 0.62, 0.55, 0.45) 0.2s;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
-a:hover  {
+a:hover {
   color: #a3f7bf;
 }
 
 a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
@@ -104,17 +110,17 @@ a:hover:before {
 .arrow {
   position: relative;
   left: 0;
-  transition: left cubic-bezier(.46,.62,.55,.45) 0.3s;
+  transition: left cubic-bezier(0.46, 0.62, 0.55, 0.45) 0.3s;
 }
 
 .read-more {
   position: relative;
   left: 0;
-  transition: left cubic-bezier(.46,.62,.55,.45) 0.3s;
+  transition: left cubic-bezier(0.46, 0.62, 0.55, 0.45) 0.3s;
 }
 
 .read-more:hover:before {
-  content: none
+  content: none;
 }
 
 .read-more:hover {
@@ -126,7 +132,7 @@ a:hover:before {
 }
 
 .text-lower {
-  color: #9b9b9b
+  color: #9b9b9b;
 }
 
 .card {
