@@ -20,7 +20,7 @@
     </Section>
 
     <Section id="projects" title="Projects" cards>
-      <Project
+      <base-card
         v-for="(project, key) in projects"
         :key="key"
         :title="project.frontmatter.title"
@@ -32,7 +32,7 @@
     </Section>
 
     <Section id="essays" title="Essays" cards>
-      <Essay
+      <base-card
         v-for="(essay, key) in essays"
         :key="key"
         :title="essay.frontmatter.title"
@@ -48,17 +48,15 @@
 import Vue from 'vue'
 import Intro from '../components/homepage/Intro'
 import Section from '../components/shared/Section'
-import Essay from '../components/card/Essay'
-import Project from '../components/card/Project'
 import Skills from '../components/homepage/Skills'
+import BaseCard from '../components/card/BaseCard.vue'
 
 export default {
   components: {
     Intro,
     Section,
-    Essay,
-    Project,
-    Skills
+    Skills,
+    BaseCard
   },
   async asyncData({ params }) {
     const essays = {}

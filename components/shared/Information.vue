@@ -7,18 +7,11 @@
     <div class="mb-4 text-sm text-lower font-mono">
       {{ date }}
     </div>
-    <div class="mb-4 text-base">
+    <div class="mb-2 text-base">
       {{ description }}
     </div>
-    <div class="mb-4 font-mono text-lower text-sm">
-      <span v-for="(tag, index) in tags" :key="tag">
-        {{ tag }}
-        <span v-if="index !== tags.length - 1">
-          •
-        </span>
-      </span>
-    </div>
-    <div>
+    <tags :tags="tags" />
+    <div class="mt-4">
       <a
         v-if="github"
         class="icons no-accent"
@@ -59,7 +52,12 @@
 </template>
 
 <script>
+import Tags from './/Tags.vue'
+
 export default {
+  components: {
+    Tags
+  },
   props: {
     title: {
       type: String,
