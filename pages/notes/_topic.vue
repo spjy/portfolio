@@ -14,7 +14,7 @@
 
 <script>
 import Vue from 'vue'
-import TableOfContents from '../../components/TableOfContents'
+import TableOfContents from '../../components/notes/TableOfContents'
 import '@/assets/css/katex.min.css'
 import '@/assets/css/markdown.css'
 import 'markdown-it-highlight/dist/index.css'

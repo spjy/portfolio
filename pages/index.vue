@@ -5,13 +5,12 @@
     <Section id="me" title="Who">
       <div>
         <p>
-          Hi there! I reside in Arizona, but I am from Hawai`i. I'm a full
-          time software engineer.
+          Hi there! I reside in Arizona, but I am from Hawai`i. I'm a full time
+          software engineer.
         </p>
 
         <p>
-          In my spare time, I enjoy finance, gardening, photography, and
-          coding.
+          In my spare time, I enjoy finance, gardening, photography, and coding.
         </p>
 
         <p>I have some skills under my belt:</p>
@@ -51,11 +50,11 @@
 
 <script>
 import Vue from 'vue'
-import Intro from '../components/Intro'
-import Section from '../components/Section'
-import Essay from '../components/Essay'
-import Project from '../components/Project'
-import Skills from '../components/Skills'
+import Intro from '../components/homepage/Intro'
+import Section from '../components/shared/Section'
+import Essay from '../components/card/Essay'
+import Project from '../components/card/Project'
+import Skills from '../components/homepage/Skills'
 
 export default {
   components: {
@@ -63,7 +62,7 @@ export default {
     Section,
     Essay,
     Project,
-    Skills,
+    Skills
   },
   async asyncData({ params }) {
     const essays = {}
@@ -73,7 +72,7 @@ export default {
       require
         .context('../static/essays/', true, /\.md$/)
         .keys()
-        .map(async (file) => {
+        .map(async file => {
           const filename = file.split('./')[1].split('.')[0] // rid of ./ then rid of .md
 
           const markdown = await import(`~/static/essays/${filename}.md`)
@@ -86,7 +85,7 @@ export default {
       require
         .context('../static/projects/', true, /\.md$/)
         .keys()
-        .map(async (file) => {
+        .map(async file => {
           const filename = file.split('./')[1].split('.')[0]
 
           const markdown = await import(`~/static/projects/${filename}.md`)
@@ -97,9 +96,9 @@ export default {
 
     return {
       essays,
-      projects,
+      projects
     }
-  },
+  }
 }
 </script>
 

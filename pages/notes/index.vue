@@ -13,7 +13,7 @@
 
 <script>
 import Vue from 'vue'
-import Note from '../../components/Note'
+import Note from '../../components/card/Note'
 
 export default {
   components: {
