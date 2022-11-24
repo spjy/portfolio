@@ -1,9 +1,9 @@
 <template>
   <div class="flex p-4 flex-wrap">
-    <Note
+    <base-card
       v-for="(topic, key) in topics"
       :key="key"
-      class="flex-initial"
+      class="flex-initial m-2"
       :title="topic.frontmatter.header"
       :description="topic.frontmatter.description"
       :link="`/notes/${key}`"
@@ -13,11 +13,11 @@
 
 <script>
 import Vue from 'vue'
-import Note from '../../components/card/Note'
+import BaseCard from '../../components/card/BaseCard.vue'
 
 export default {
   components: {
-    Note
+    BaseCard
   },
   async asyncData({ params }) {
     const topics = {}

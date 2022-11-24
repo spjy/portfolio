@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-none rounded overflow-hidden shadow-lg card m-4">
+  <div class="flex-none rounded overflow-hidden shadow-lg card">
     <img
       v-if="image"
       class="h-64 w-full object-cover object-center"
@@ -15,7 +15,7 @@
         </p>
       </div>
       <div>
-        <tags :tags="tags" />
+        <tags v-if="tags.length > 0" :tags="tags" />
         <router-link :to="link" class="read-more">
           Read More
           <ArrowIcon />
@@ -27,7 +27,7 @@
 
 <script>
 import Tags from '../shared/Tags.vue'
-import ArrowIcon from './ArrowIcon'
+import ArrowIcon from '../icons/ArrowIcon'
 
 export default {
   components: {

@@ -21,6 +21,7 @@
 
     <Section id="projects" title="Projects" cards>
       <base-card
+        class="m-3"
         v-for="(project, key) in projects"
         :key="key"
         :title="project.frontmatter.title"
@@ -33,6 +34,7 @@
 
     <Section id="essays" title="Essays" cards>
       <base-card
+        class="m-3"
         v-for="(essay, key) in essays"
         :key="key"
         :title="essay.frontmatter.title"
