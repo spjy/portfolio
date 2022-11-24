@@ -1,10 +1,10 @@
 <template>
   <div class="flex-1 rounded overflow-hidden shadow-lg card m-2">
     <div class="px-6 py-4">
-      <div class="font-bold text-lg mb-1">
+      <div class="font-bold text-xl mb-1">
         {{ title }}
       </div>
-      <p>
+      <p class="text-sm">
         {{ description }}
       </p>
       <router-link :to="link" class="read-more">
