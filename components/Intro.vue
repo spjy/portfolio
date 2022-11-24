@@ -23,9 +23,9 @@
               />
             </svg>
 
-            Bachelor's of Science in Computer Engineering from the
+            Bachelor of Science in Computer Engineering from the
             <a
-              class="ml-2"
+              class="ml-1"
               href="http://hawaii.edu"
               target="_blank"
               rel="noreferrer noopener"
@@ -68,9 +68,9 @@
               />
             </svg>
 
-            Working at
+            Full Stack Engineer at
             <a
-              class="ml-2"
+              class="ml-1"
               href="http://ravenind.com"
               target="_blank"
               rel="noreferrer noopener"
