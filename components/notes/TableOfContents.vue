@@ -15,7 +15,7 @@
         :key="content.anchor"
         :class="
           content.level === 1
-            ? 'truncate font-bold text-xl mt-3'
+            ? 'truncate font-bold text-xl mt-2'
             : 'truncate border-l-2 hover:border-green-300'
         "
         :href="`#${content.anchor}`"
