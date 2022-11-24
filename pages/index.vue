@@ -41,10 +41,6 @@
         :link="`/essays/${key}`"
       />
     </Section>
-
-    <div class="footer font-mono text-center p-4">
-      <div>Designed by Spencer Young</div>
-    </div>
   </div>
 </template>
 
@@ -121,10 +117,6 @@ export default {
   z-index: -1;
   transform: rotate(15deg);
 } */
-
-.footer {
-  background-color: #393e46;
-}
 
 .container {
   margin: 0 auto;

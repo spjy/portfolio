@@ -1,15 +1,22 @@
 <template>
-  <div>
-    <navigation-bar />
-    <nuxt />
+  <div class="min-h-screen flex flex-col justify-between">
+    <div>
+      <navigation-bar />
+      <nuxt />
+    </div>
+    <div class="">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
 import NavigationBar from '../components/shared/NavigationBar.vue'
+import Footer from '../components/shared/Footer.vue'
 export default {
   components: {
-    NavigationBar
+    NavigationBar,
+    Footer
   },
   data() {
     return {
