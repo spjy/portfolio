@@ -60,7 +60,7 @@ h1 {
 }
 
 a {
-  font-family: 'Inter';
+  font-family: 'IBM Plex Sans';
   color: white !important;
 }
 </style>
