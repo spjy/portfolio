@@ -5,15 +5,13 @@
     <Section id="me" title="Who">
       <div>
         <p>
-          Hi there! I reside in Arizona, but I am from Hawai`i. I'm a full time
-          software engineer.
+          In 2013, I built my first computer, so it was only natural for me to
+          love software engineering. I first began coding in 2017.
         </p>
 
         <p>
-          In my spare time, I enjoy finance, gardening, photography, and coding.
+          In my spare time, I enjoy gaming, gardening, photography, and coding.
         </p>
-
-        <p>I have some skills under my belt:</p>
       </div>
 
       <Skills :skills="$store.state.settings.skills" />
