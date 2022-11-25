@@ -19,9 +19,9 @@
 
     <Section id="projects" title="Projects" cards>
       <base-card
-        class="m-3"
         v-for="(project, key) in projects"
         :key="key"
+        class="m-3"
         :title="project.frontmatter.title"
         :image="project.frontmatter.image"
         :tags="project.frontmatter.tags.split(', ')"
@@ -32,9 +32,9 @@
 
     <Section id="essays" title="Essays" cards>
       <base-card
-        class="m-3"
         v-for="(essay, key) in essays"
         :key="key"
+        class="m-3"
         :title="essay.frontmatter.title"
         :tags="essay.frontmatter.tags.split(', ')"
         :description="essay.frontmatter.description"
