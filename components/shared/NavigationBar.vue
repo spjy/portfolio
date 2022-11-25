@@ -52,10 +52,6 @@ export default {
       type: String,
       default: ''
     },
-    header: {
-      type: String,
-      required: true
-    },
     description: {
       type: String,
       default: ''
