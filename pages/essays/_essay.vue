@@ -12,7 +12,7 @@
       />
     </div>
     <div
-      class="w-full md:w-3/4 p-4 h-full text-base rounded shadow description-card"
+      class="w-full md:w-3/4 px-4 h-full text-base rounded shadow"
     >
       <div class="mb-5 text-lower font-mono">
         ESSAY
