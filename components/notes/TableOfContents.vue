@@ -1,10 +1,10 @@
 <template>
   <div class="sticky-info">
-    <div class="description-card rounded shadow p-4 overflow-y-auto">
+    <div class="rounded px-4 overflow-y-auto">
       <h1 class="header">{{ note.header }}</h1>
       <p class="description">{{ note.description }}</p>
     </div>
-    <div class="toc overflow-y-auto m-2">
+    <div class="md:toc overflow-y-auto m-2 h-40">
       <div
         v-for="content in toc"
         :key="content.anchor"
