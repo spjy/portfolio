@@ -10,7 +10,8 @@
         </p>
 
         <p>
-          In my spare time, I enjoy gaming, gardening, photography, and coding.
+          In my spare time, I enjoy rock climbing, gaming, gardening,
+          photography, and chess.
         </p>
       </div>
 
