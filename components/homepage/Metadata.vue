@@ -1,38 +1,51 @@
 <template>
   <div class="flex flex-col gap-y-3">
     <div class="flex">
-      <graduation-cap />
+      <div>
+        <graduation-cap />
+      </div>
 
-      Bachelor of Science in Computer Engineering from the
-      <a
-        class="ml-1"
-        href="http://hawaii.edu"
-        target="_blank"
-        rel="noreferrer noopener"
-        >University of Hawaii</a
-      >
+      <div>
+        BS in Computer Engineering from the
+        <a
+          class="ml-1"
+          href="http://hawaii.edu"
+          target="_blank"
+          rel="noreferrer noopener"
+          >University of Hawaii</a
+        >
+      </div>
     </div>
 
     <div class="flex">
-      <light-bulb />
+      <div>
+        <light-bulb />
+      </div>
 
-      Interested in Full Stack Software Engineering
+      <div>
+        Interested in Full Stack Software Engineering
+      </div>
     </div>
 
     <div class="flex">
-      <building />
+      <div>
+        <building />
+      </div>
 
-      Full Stack Engineer at
-      <a
-        class="ml-1"
-        href="http://ravenind.com"
-        target="_blank"
-        rel="noreferrer noopener"
-        >Raven Industries</a
-      >
+      <div>
+        Full Stack Engineer at
+        <a
+          class="ml-1"
+          href="http://ravenind.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Raven Industries</a
+        >
+      </div>
     </div>
   </div>
 </template>
+
 <script>
 import GraduationCap from '../icons/GraduationCap.vue'
 import LightBulb from '../icons/LightBulb.vue'
