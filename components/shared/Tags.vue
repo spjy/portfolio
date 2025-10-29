@@ -1,12 +1,12 @@
 <template>
-  <div class="pb-2 font-mono text-xs text-lower">
+  <p class="pb-2 font-mono text-xs text-lower">
     <span v-for="(tag, index) in tags" :key="tag">
       {{ tag }}
       <span v-if="index !== tags.length - 1">
         •
       </span>
     </span>
-  </div>
+  </p>
 </template>
 
 <script>

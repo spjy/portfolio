@@ -1,7 +1,7 @@
 <template>
-  <div class="footer font-mono text-center p-4">
+  <footer class="footer font-mono text-center p-4">
     <div>Designed by Spencer Young</div>
-  </div>
+  </footer>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center p-6 flex-col md:flex-row">
-    <div class="md:w-1/5 p-4">
+    <aside class="md:w-1/5 p-4">
       <Information
         :title="frontmatter.title"
         :image="frontmatter.image"
@@ -10,14 +10,14 @@
         :github="frontmatter.github"
         :link="frontmatter.link"
       />
-    </div>
-    <div class="md:w-4/5 max-w-3xl p-4 text-base">
+    </aside>
+    <article class="md:w-4/5 max-w-3xl p-4 text-base">
       <div class="mb-2 text-lower font-mono">
         PROJECT
       </div>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <p v-html="markdown" />
-    </div>
+    </article>
   </div>
 </template>
 

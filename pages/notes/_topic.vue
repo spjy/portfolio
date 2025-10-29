@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="flex flex-col md:flex-row justify-center">
-      <div class="sm:w-full md:w-1/5 p-4">
+      <aside class="sm:w-full md:w-1/5 p-4">
         <TableOfContents :toc="toc" :note="frontmatter" />
-      </div>
-      <div class="sm:w-full md:w-4/5 p-4 max-w-3xl">
+      </aside>
+      <article class="sm:w-full md:w-4/5 p-4 max-w-3xl">
         <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="p-4" v-html="markdown" />
-      </div>
+      </article>
     </div>
   </div>
 </template>

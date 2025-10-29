@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-around p-6 font-mono">
+  <nav class="flex justify-around p-6 font-mono">
     <div class="flex-1 p-1">
       <router-link to="/" class="text-left no-accent">
         <img class="h-8" src="~/static/images/logo.png" />
@@ -42,7 +42,7 @@
         </svg>
       </a>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
