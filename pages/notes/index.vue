@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-4 flex-wrap">
+  <div class="flex justify-center p-4 flex-wrap">
     <base-card
       v-for="(topic, key) in topics"
       :key="key"

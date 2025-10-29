@@ -1,6 +1,6 @@
 <template>
-  <div class="flex p-6 flex-col md:flex-row">
-    <div class="w-full md:w-1/4 mb-4 md:px-4">
+  <div class="flex justify-center p-6 flex-col md:flex-row">
+    <div class="md:w-1/5 p-4">
       <Information
         :title="frontmatter.title"
         :image="frontmatter.image"
@@ -11,10 +11,8 @@
         :link="frontmatter.link"
       />
     </div>
-    <div
-      class="w-full md:w-3/4 px-4 h-full text-base rounded shadow"
-    >
-      <div class="mb-5 text-lower font-mono">
+    <div class="md:w-4/5 max-w-3xl p-4 text-base">
+      <div class="mb-2 text-lower font-mono">
         PROJECT
       </div>
       <!-- eslint-disable-next-line vue/no-v-html -->
